@@ -1,0 +1,47 @@
+INFO  21:17:16,822 - Compiling source file: C:\Users\Administrator\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  21:17:16,930 - #28 program
+INFO  21:17:16,930 - #39 test301
+INFO  21:17:16,930 - #29 const
+INFO  21:17:16,932 - #39 int
+INFO  21:17:16,932 - #39 nula
+INFO  21:17:16,934 - #16 =
+INFO  21:17:16,934 - #38 0
+INFO  21:17:16,934 - #6 ;
+INFO  21:17:16,934 - #29 const
+INFO  21:17:16,936 - #39 int
+INFO  21:17:16,936 - #39 jedan
+INFO  21:17:16,937 - #16 =
+INFO  21:17:16,937 - #38 1
+INFO  21:17:16,937 - #6 ;
+INFO  21:17:16,937 - #29 const
+INFO  21:17:16,937 - #39 int
+INFO  21:17:16,937 - #39 pet
+INFO  21:17:16,937 - #16 =
+INFO  21:17:16,938 - #38 5
+INFO  21:17:16,938 - #6 ;
+INFO  21:17:16,939 - #39 int
+INFO  21:17:16,939 - #39 niz
+INFO  21:17:16,939 - #4 [
+INFO  21:17:16,939 - #5 ]
+INFO  21:17:16,939 - #6 ;
+INFO  21:17:16,939 - #39 char
+INFO  21:17:16,940 - #39 nizch
+INFO  21:17:16,940 - #4 [
+INFO  21:17:16,940 - #5 ]
+INFO  21:17:16,940 - #6 ;
+INFO  21:17:16,940 - #39 bool
+INFO  21:17:16,940 - #39 t
+INFO  21:17:16,940 - #6 ;
+INFO  21:17:16,940 - #2 {
+INFO  21:17:16,940 - #39 int
+INFO  21:17:16,942 - #39 funkcija
+INFO  21:17:16,942 - #8 (
+INFO  21:17:16,943 - #9 )
+INFO  21:17:16,944 - #2 {
+INFO  21:17:16,945 - #32 return
+INFO  21:17:16,946 - #39 niz
+INFO  21:17:16,946 - #4 [
+INFO  21:17:16,947 - #5 ]
+ERROR 21:17:16,947 - 
+Sintaksna greska na liniji 16
+ERROR 21:17:16,947 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16

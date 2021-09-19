@@ -1,0 +1,88 @@
+INFO  12:51:21,001 - Compiling source file: C:\Users\Administrator\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:51:21,138 - #28 program
+INFO  12:51:21,138 - #39 MJProgram
+INFO  12:51:21,138 - #39 int
+INFO  12:51:21,141 - #39 x
+INFO  12:51:21,142 - #6 ;
+INFO  12:51:21,143 - #39 int
+INFO  12:51:21,144 - #39 y
+INFO  12:51:21,145 - #6 ;
+INFO  12:51:21,145 - #39 char
+INFO  12:51:21,145 - #39 z
+INFO  12:51:21,145 - #6 ;
+INFO  12:51:21,145 - #29 const
+INFO  12:51:21,145 - #39 int
+INFO  12:51:21,146 - #39 a
+INFO  12:51:21,146 - #16 =
+INFO  12:51:21,146 - #38 1
+INFO  12:51:21,146 - #10 ,
+INFO  12:51:21,147 - #39 b
+INFO  12:51:21,148 - #16 =
+INFO  12:51:21,148 - #38 2
+INFO  12:51:21,148 - #6 ;
+INFO  12:51:21,149 - #2 {
+INFO  12:51:21,150 - #39 int
+INFO  12:51:21,152 - #39 k
+INFO  12:51:21,152 - #8 (
+INFO  12:51:21,152 - #9 )
+INFO  12:51:21,153 - #39 int
+INFO  12:51:21,154 - #39 c
+INFO  12:51:21,154 - #6 ;
+INFO  12:51:21,155 - #39 char
+INFO  12:51:21,155 - #39 b
+INFO  12:51:21,155 - #6 ;
+INFO  12:51:21,155 - #2 {
+INFO  12:51:21,155 - #39 c
+INFO  12:51:21,157 - #16 =
+INFO  12:51:21,160 - #38 1
+INFO  12:51:21,163 - #6 ;
+INFO  12:51:21,166 - #32 return
+INFO  12:51:21,166 - #39 c
+INFO  12:51:21,166 - #11 +
+INFO  12:51:21,166 - #38 2
+INFO  12:51:21,169 - #6 ;
+INFO  12:51:21,170 - #3 }
+INFO  12:51:21,170 - #39 int
+INFO  12:51:21,172 - #39 main
+INFO  12:51:21,172 - #8 (
+INFO  12:51:21,172 - #9 )
+INFO  12:51:21,172 - #2 {
+INFO  12:51:21,172 - #39 y
+INFO  12:51:21,172 - #16 =
+INFO  12:51:21,172 - #38 2
+INFO  12:51:21,173 - #6 ;
+INFO  12:51:21,173 - #39 x
+INFO  12:51:21,173 - #16 =
+INFO  12:51:21,173 - #39 y
+INFO  12:51:21,173 - #11 +
+INFO  12:51:21,173 - #38 2
+INFO  12:51:21,173 - #6 ;
+INFO  12:51:21,174 - #39 y
+INFO  12:51:21,174 - #16 =
+INFO  12:51:21,174 - #39 k
+INFO  12:51:21,174 - #8 (
+INFO  12:51:21,174 - #9 )
+INFO  12:51:21,174 - #11 +
+INFO  12:51:21,175 - #38 3
+INFO  12:51:21,175 - #6 ;
+INFO  12:51:21,175 - #30 print
+INFO  12:51:21,175 - #8 (
+INFO  12:51:21,175 - #39 y
+INFO  12:51:21,175 - #9 )
+INFO  12:51:21,176 - #6 ;
+INFO  12:51:21,176 - #32 return
+INFO  12:51:21,177 - #38 0
+INFO  12:51:21,177 - #6 ;
+INFO  12:51:21,177 - #3 }
+INFO  12:51:21,177 - #3 }
+INFO  12:51:21,197 - Trenutni tip: 1 na liniji 2
+INFO  12:51:21,197 - Trenutni tip: 1 na liniji 2
+INFO  12:51:21,198 - Trenutni tip: 2 na liniji 2
+INFO  12:51:21,198 - Trenutni tip: 1 na liniji 2
+ERROR 12:51:21,198 - Greska: Tip dodeljene vrednosti se razlikuje od tipa konstante a na liniji 2
+ERROR 12:51:21,198 - Greska: Tip dodeljene vrednosti se razlikuje od tipa konstante b na liniji 2
+INFO  12:51:21,198 - Trenutni tip: 1 na liniji 7
+INFO  12:51:21,198 - Trenutni tip: 1 na liniji 7
+INFO  12:51:21,199 - Trenutni tip: 2 na liniji 7
+INFO  12:51:21,199 - Trenutni tip: 1 na liniji 12
+ERROR 12:51:21,201 - Parsiranje NIJE uspesno zavrseno!

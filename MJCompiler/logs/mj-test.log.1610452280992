@@ -1,0 +1,88 @@
+INFO  12:49:18,420 - Compiling source file: C:\Users\Administrator\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:49:18,532 - #28 program
+INFO  12:49:18,532 - #39 MJProgram
+INFO  12:49:18,532 - #39 int
+INFO  12:49:18,535 - #39 x
+INFO  12:49:18,536 - #6 ;
+INFO  12:49:18,536 - #39 int
+INFO  12:49:18,538 - #39 y
+INFO  12:49:18,538 - #6 ;
+INFO  12:49:18,538 - #39 char
+INFO  12:49:18,538 - #39 z
+INFO  12:49:18,538 - #6 ;
+INFO  12:49:18,539 - #29 const
+INFO  12:49:18,539 - #39 int
+INFO  12:49:18,539 - #39 a
+INFO  12:49:18,539 - #16 =
+INFO  12:49:18,539 - #38 1
+INFO  12:49:18,540 - #10 ,
+INFO  12:49:18,540 - #39 b
+INFO  12:49:18,540 - #16 =
+INFO  12:49:18,540 - #38 2
+INFO  12:49:18,541 - #6 ;
+INFO  12:49:18,541 - #2 {
+INFO  12:49:18,543 - #39 int
+INFO  12:49:18,545 - #39 k
+INFO  12:49:18,545 - #8 (
+INFO  12:49:18,545 - #9 )
+INFO  12:49:18,546 - #39 int
+INFO  12:49:18,547 - #39 c
+INFO  12:49:18,548 - #6 ;
+INFO  12:49:18,548 - #39 char
+INFO  12:49:18,548 - #39 b
+INFO  12:49:18,548 - #6 ;
+INFO  12:49:18,548 - #2 {
+INFO  12:49:18,548 - #39 c
+INFO  12:49:18,549 - #16 =
+INFO  12:49:18,552 - #38 1
+INFO  12:49:18,555 - #6 ;
+INFO  12:49:18,557 - #32 return
+INFO  12:49:18,558 - #39 c
+INFO  12:49:18,558 - #11 +
+INFO  12:49:18,558 - #38 2
+INFO  12:49:18,561 - #6 ;
+INFO  12:49:18,562 - #3 }
+INFO  12:49:18,562 - #39 int
+INFO  12:49:18,564 - #39 main
+INFO  12:49:18,564 - #8 (
+INFO  12:49:18,564 - #9 )
+INFO  12:49:18,564 - #2 {
+INFO  12:49:18,564 - #39 y
+INFO  12:49:18,564 - #16 =
+INFO  12:49:18,565 - #38 2
+INFO  12:49:18,565 - #6 ;
+INFO  12:49:18,565 - #39 x
+INFO  12:49:18,565 - #16 =
+INFO  12:49:18,565 - #39 y
+INFO  12:49:18,565 - #11 +
+INFO  12:49:18,566 - #38 2
+INFO  12:49:18,566 - #6 ;
+INFO  12:49:18,566 - #39 y
+INFO  12:49:18,566 - #16 =
+INFO  12:49:18,566 - #39 k
+INFO  12:49:18,567 - #8 (
+INFO  12:49:18,567 - #9 )
+INFO  12:49:18,567 - #11 +
+INFO  12:49:18,567 - #38 3
+INFO  12:49:18,567 - #6 ;
+INFO  12:49:18,567 - #30 print
+INFO  12:49:18,567 - #8 (
+INFO  12:49:18,567 - #39 y
+INFO  12:49:18,568 - #9 )
+INFO  12:49:18,568 - #6 ;
+INFO  12:49:18,568 - #32 return
+INFO  12:49:18,568 - #38 0
+INFO  12:49:18,568 - #6 ;
+INFO  12:49:18,568 - #3 }
+INFO  12:49:18,569 - #3 }
+INFO  12:49:18,588 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 2
+INFO  12:49:18,589 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 2
+INFO  12:49:18,589 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@4783da3f na liniji 2
+INFO  12:49:18,589 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 2
+ERROR 12:49:18,589 - Greska: Tip dodeljene vrednosti se razlikuje od tipa konstante a na liniji 2
+ERROR 12:49:18,589 - Greska: Tip dodeljene vrednosti se razlikuje od tipa konstante b na liniji 2
+INFO  12:49:18,589 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 7
+INFO  12:49:18,590 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 7
+INFO  12:49:18,590 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@4783da3f na liniji 7
+INFO  12:49:18,590 - Trenutni tip: rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 12
+ERROR 12:49:18,592 - Parsiranje NIJE uspesno zavrseno!

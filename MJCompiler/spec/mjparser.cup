@@ -1,0 +1,301 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal LBRACE, RBRACE, LSQUARE, RSQUARE, SEMI, COLON, LPAREN, RPAREN, COMMA, PLUS, MINUS, MUL, DIV, MOD, EQUAL, QMARK, INCREMENT, DECREMENT;
+terminal AND, OR, ISEQUAL, NOTEQUAL, GREATER, GEQUAL, LESS, LEQUAL;
+terminal  PROG, CONST, PRINT, READ, RETURN, VOID, CLASS, EXTENDS, NEW, DOT;
+terminal Integer NUMCONST ;
+terminal String IDENT ;
+terminal Character CHARCONST;
+terminal Boolean BOOLCONST;
+terminal IF, ELSE, DO, WHILE, SWITCH, CASE, BREAK, CONTINUE;
+
+nonterminal MethodDeclList, VarDecl, VarDeclSingle, VarDeclarations;
+nonterminal ExtendsOptional, MethodDeclListOptional;
+nonterminal FormPars, FormParsOptional, FormalParam, ActPars, ActualParamList; 
+nonterminal StatementList, Statement, DesignatorStatement, Condition, CondTerm, CondFact, CasesList, Case, Addop, Assignop, Relop, Mulop;
+nonterminal DeclList, Decl, ConstDecl, ClassDecl, ConstAssignList;
+nonterminal Program, ConstAssign, VarDeclList, MethodDecl, Colon, Qmark;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, MethodTypeName, Designator; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, TermList, Expr, Factor; 
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgName DeclList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:name;
+
+Type ::= (Type) IDENT:name;
+
+
+Decl ::= ConstDecl
+		 |
+		 VarDecl
+		 |
+		 ClassDecl;
+
+DeclList ::= (DeclarationList) DeclList Decl
+			|
+			(NoDeclarationList) /*epsilon*/;
+
+MethodDeclList ::= (MethodDeclarationList) MethodDeclList MethodDecl
+					|
+					(NoMethodDeclarationList) /*epsilon*/;
+
+ConstDecl ::= (ConstDecl) CONST Type ConstAssignList SEMI;
+
+ConstAssignList ::= (ConstAssignMultiple) ConstAssignList COMMA ConstAssign
+					|
+					(ConstAssignSingle) ConstAssign;
+					
+
+ConstAssign ::= (NumConstAssign) IDENT:name EQUAL NUMCONST:value
+				|
+				(CharConstAssign) IDENT:name EQUAL CHARCONST:value
+				|
+				(BoolConstAssign) IDENT:name EQUAL BOOLCONST:value;
+					  
+VarDecl ::= (VarDeclr) Type VarDeclarations SEMI
+			|
+			(VarDeclError) Type error SEMI;
+					  
+VarDeclarations ::= (VarDeclarationMultiple) VarDeclarations COMMA VarDeclSingle  
+				    |
+				    (VarDeclarationMultipleError) error COMMA VarDeclSingle
+				    |
+					(VarDeclarationSingle) VarDeclSingle;
+
+			
+VarDeclSingle ::= (VarDeclNotArray) IDENT:name 
+		          | 
+		          (VarDeclArray) IDENT:name LSQUARE RSQUARE 
+		          ;
+		          
+VarDeclList ::= (VarDeclarationList) VarDeclList VarDecl
+				|
+				(NoVarDeclarationList) /*epsilon*/ ;
+			          
+ClassDecl ::= (ClassDecl) CLASS IDENT:name ExtendsOptional LBRACE VarDeclList MethodDeclListOptional RBRACE; 
+
+ExtendsOptional ::= (ExtendedClass) EXTENDS Type
+					|
+					(NoExtendedClass) /*epsilon*/;
+
+MethodDeclListOptional ::= (ClassMethods) LBRACE MethodDeclList RBRACE
+						   |
+						   (NoClassMethods) /*epsilon*/;
+						   
+						   
+	
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormParsOptional RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodTypeName ::= (RegularType) Type IDENT:name
+				   |
+				   (VoidType) VOID IDENT:name
+				   ;
+
+FormParsOptional ::= (FormalParams) FormPars 
+					|
+					(NoFormalParams) /*epsilon*/;
+
+FormPars ::= (FormParMultiple) FormPars COMMA FormalParam
+			|
+			(FormParSingle) FormalParam;
+
+FormalParam ::= (FormParNotArray) Type IDENT:name
+			   |
+			   (FormParArray) Type IDENT:name LSQUARE RSQUARE;
+
+Statement ::= (DesignatorStmt) DesignatorStatement SEMI
+			  |
+			  (IfStmt) IF LPAREN Condition RPAREN Statement 
+			  |
+			  (IfElseStmt) IF LPAREN Condition RPAREN Statement ELSE Statement
+			  |
+			  (DoWhileStmt) DO Statement WHILE LPAREN Condition RPAREN SEMI 
+			  |
+			  (SwitchStmt) SWITCH LPAREN Expr RPAREN LBRACE CasesList RBRACE
+			  |
+			  (BreakStmt) BREAK SEMI
+			  |
+			  (ContinueStmt) CONTINUE SEMI
+			  |
+			  (ReturnStmt) RETURN SEMI
+			  |
+			  (ReturnExprStmt) RETURN Expr SEMI
+			  |
+		      (ReadStmt) READ LPAREN Designator RPAREN SEMI
+			  |
+			  (PrintStmt) PRINT LPAREN Expr RPAREN SEMI
+			  |
+			  (PrintConstStmt) PRINT LPAREN Expr COMMA NUMCONST:len RPAREN SEMI
+			  |
+			  (ListStmt) LBRACE StatementList RBRACE;
+	
+			
+StatementList ::= (StatList) StatementList Statement
+				|
+				(NoStatList) /*epsilon*/;
+			
+CasesList ::= (CaseList) CasesList Case
+             |
+             (NoCaseList) /*epsilon*/;
+
+Case ::= (Case) CASE NUMCONST:value COLON StatementList;
+
+DesignatorStatement ::= (AssignDes) Designator Assignop Expr
+						|
+						(AssignDesError) Designator Assignop error
+						|
+						(NoParamDes) Designator LPAREN RPAREN 
+						|
+						(ParamDes) Designator LPAREN ActPars RPAREN
+						|
+						(IncDes) Designator INCREMENT
+						|
+						(DecDes) Designator DECREMENT;
+						
+			
+Condition ::= (ConditionOr) Condition OR CondTerm
+			 |
+			 (ConditionNoOr) CondTerm;
+
+			
+CondTerm ::= (CondTermAnd) CondTerm AND CondFact
+			|
+			(CondTermNoAnd) CondFact;
+
+			
+CondFact ::= (CondFactRelop) CondFact Relop Expr
+			|
+			(CondFactNoRelop) Expr;
+			
+			
+ActPars ::= (ActParMultiple) ActPars COMMA Expr
+			|
+			(ActParSingle) Expr;
+				
+
+Expr ::= (ExprTernary) TermList Qmark TermList Colon TermList  
+		  |
+		  (ExprNoTernary) TermList;  
+		  
+Qmark ::= (Qmark) QMARK;
+
+Colon ::= (Colon) COLON;
+	
+TermList ::= (TermListAddop) TermList Addop Term 
+			 |
+			 (TermListTerm) Term  
+			 |
+			 (TermListMinusTerm) MINUS Term; 
+
+
+Term ::= (TermMulop) Term Mulop Factor 
+		 |
+		 (TermNoMulop) Factor;  
+			
+			
+Factor ::= (DesignatorFactor) Designator   
+		   |
+		   (DesignatorParamsFactor) Designator LPAREN ActPars RPAREN
+		   |
+		   (DesignatorNoParamsFactor) Designator LPAREN  RPAREN 
+		   |
+		   (NumConstFactor) NUMCONST:value  
+		   |
+		   (CharConstFactor) CHARCONST:value  
+		   |
+		   (BoolConstFactor) BOOLCONST:value  
+		   |
+		   (NewFactor) NEW Type 
+		   |
+		   (NewArrayFactor) NEW Type LSQUARE Expr RSQUARE  
+		   |
+		   (ExprFactor) LPAREN Expr RPAREN;  
+		   		
+Designator ::= (DesignatorClassMemberAccess) Designator DOT IDENT:name
+			    |
+			    (DesignatorArrayAccess) Designator LSQUARE Expr RSQUARE
+			    |
+		    	(DesignatorBasic) IDENT:name;
+
+Addop ::= (Plus) PLUS 
+         |
+          (Minus) MINUS;
+
+Mulop ::= (Mul) MUL
+		  |
+		  (Div)DIV
+		  |
+		  (Mod) MOD;
+
+Assignop ::= (Assignop) EQUAL;
+
+Relop ::= (IsEqual) ISEQUAL
+		  |
+		  (NotEqual) NOTEQUAL
+		  |
+		  (Greater) GREATER
+		  |
+		  (Gequal) GEQUAL
+		  |
+		  (Less) LESS
+		  |
+		  (Lequal) LEQUAL;
+		

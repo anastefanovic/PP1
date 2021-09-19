@@ -1,0 +1,342 @@
+INFO  19:59:35,071 - Compiling source file: C:\Users\Administrator\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  19:59:35,188 - #28 program
+INFO  19:59:35,188 - #39 test301
+INFO  19:59:35,188 - #29 const
+INFO  19:59:35,190 - #39 int
+INFO  19:59:35,190 - #39 nula
+INFO  19:59:35,192 - #16 =
+INFO  19:59:35,192 - #38 0
+INFO  19:59:35,192 - #6 ;
+INFO  19:59:35,193 - #29 const
+INFO  19:59:35,194 - #39 int
+INFO  19:59:35,194 - #39 jedan
+INFO  19:59:35,195 - #16 =
+INFO  19:59:35,195 - #38 1
+INFO  19:59:35,195 - #6 ;
+INFO  19:59:35,195 - #29 const
+INFO  19:59:35,195 - #39 int
+INFO  19:59:35,195 - #39 pet
+INFO  19:59:35,196 - #16 =
+INFO  19:59:35,196 - #38 5
+INFO  19:59:35,196 - #6 ;
+INFO  19:59:35,197 - #39 int
+INFO  19:59:35,197 - #39 niz
+INFO  19:59:35,197 - #4 [
+INFO  19:59:35,198 - #5 ]
+INFO  19:59:35,198 - #6 ;
+INFO  19:59:35,198 - #39 char
+INFO  19:59:35,199 - #39 nizch
+INFO  19:59:35,199 - #4 [
+INFO  19:59:35,199 - #5 ]
+INFO  19:59:35,199 - #6 ;
+INFO  19:59:35,199 - #2 {
+INFO  19:59:35,199 - #33 void
+INFO  19:59:35,200 - #39 main
+INFO  19:59:35,201 - #8 (
+INFO  19:59:35,201 - #9 )
+INFO  19:59:35,203 - #39 int
+INFO  19:59:35,205 - #39 bodovi
+INFO  19:59:35,205 - #6 ;
+INFO  19:59:35,205 - #39 bool
+INFO  19:59:35,205 - #39 bt
+INFO  19:59:35,206 - #6 ;
+INFO  19:59:35,206 - #2 {
+INFO  19:59:35,206 - #39 bodovi
+INFO  19:59:35,207 - #16 =
+INFO  19:59:35,207 - #38 0
+INFO  19:59:35,208 - #6 ;
+INFO  19:59:35,209 - #39 bodovi
+INFO  19:59:35,210 - #18 ++
+INFO  19:59:35,210 - #6 ;
+INFO  19:59:35,210 - #39 bodovi
+INFO  19:59:35,210 - #16 =
+INFO  19:59:35,210 - #39 bodovi
+INFO  19:59:35,210 - #11 +
+INFO  19:59:35,211 - #39 jedan
+INFO  19:59:35,213 - #6 ;
+INFO  19:59:35,213 - #39 bodovi
+INFO  19:59:35,213 - #16 =
+INFO  19:59:35,213 - #39 bodovi
+INFO  19:59:35,214 - #13 *
+INFO  19:59:35,214 - #39 pet
+INFO  19:59:35,216 - #6 ;
+INFO  19:59:35,216 - #39 bodovi
+INFO  19:59:35,216 - #19 --
+INFO  19:59:35,217 - #6 ;
+INFO  19:59:35,217 - #30 print
+INFO  19:59:35,217 - #8 (
+INFO  19:59:35,218 - #39 bodovi
+INFO  19:59:35,218 - #9 )
+INFO  19:59:35,219 - #6 ;
+INFO  19:59:35,219 - #39 bodovi
+INFO  19:59:35,219 - #16 =
+INFO  19:59:35,219 - #38 5
+INFO  19:59:35,220 - #6 ;
+INFO  19:59:35,220 - #39 niz
+INFO  19:59:35,220 - #16 =
+INFO  19:59:35,220 - #36 new
+INFO  19:59:35,220 - #39 int
+INFO  19:59:35,220 - #4 [
+INFO  19:59:35,220 - #38 3
+INFO  19:59:35,220 - #5 ]
+INFO  19:59:35,220 - #6 ;
+INFO  19:59:35,221 - #39 niz
+INFO  19:59:35,221 - #4 [
+INFO  19:59:35,221 - #39 nula
+INFO  19:59:35,221 - #5 ]
+INFO  19:59:35,222 - #16 =
+INFO  19:59:35,222 - #39 jedan
+INFO  19:59:35,222 - #6 ;
+INFO  19:59:35,222 - #39 niz
+INFO  19:59:35,222 - #4 [
+INFO  19:59:35,222 - #38 1
+INFO  19:59:35,223 - #5 ]
+INFO  19:59:35,223 - #16 =
+INFO  19:59:35,223 - #38 2
+INFO  19:59:35,223 - #6 ;
+INFO  19:59:35,223 - #39 niz
+INFO  19:59:35,223 - #4 [
+INFO  19:59:35,223 - #39 niz
+INFO  19:59:35,223 - #4 [
+INFO  19:59:35,223 - #39 jedan
+INFO  19:59:35,223 - #5 ]
+INFO  19:59:35,224 - #5 ]
+INFO  19:59:35,224 - #16 =
+INFO  19:59:35,224 - #39 niz
+INFO  19:59:35,224 - #4 [
+INFO  19:59:35,224 - #39 niz
+INFO  19:59:35,225 - #4 [
+INFO  19:59:35,225 - #38 0
+INFO  19:59:35,225 - #5 ]
+INFO  19:59:35,225 - #5 ]
+INFO  19:59:35,226 - #13 *
+INFO  19:59:35,226 - #38 3
+INFO  19:59:35,226 - #6 ;
+INFO  19:59:35,226 - #39 bodovi
+INFO  19:59:35,226 - #16 =
+INFO  19:59:35,227 - #39 niz
+INFO  19:59:35,227 - #4 [
+INFO  19:59:35,227 - #38 2
+INFO  19:59:35,227 - #5 ]
+INFO  19:59:35,227 - #14 /
+INFO  19:59:35,227 - #39 niz
+INFO  19:59:35,229 - #4 [
+INFO  19:59:35,229 - #38 0
+INFO  19:59:35,230 - #5 ]
+INFO  19:59:35,230 - #6 ;
+INFO  19:59:35,230 - #30 print
+INFO  19:59:35,230 - #8 (
+INFO  19:59:35,230 - #39 bodovi
+INFO  19:59:35,230 - #9 )
+INFO  19:59:35,231 - #6 ;
+INFO  19:59:35,231 - #30 print
+INFO  19:59:35,231 - #8 (
+INFO  19:59:35,231 - #39 niz
+INFO  19:59:35,231 - #4 [
+INFO  19:59:35,231 - #38 2
+INFO  19:59:35,231 - #5 ]
+INFO  19:59:35,231 - #9 )
+INFO  19:59:35,231 - #6 ;
+INFO  19:59:35,232 - #39 nizch
+INFO  19:59:35,232 - #16 =
+INFO  19:59:35,232 - #36 new
+INFO  19:59:35,232 - #39 char
+INFO  19:59:35,232 - #4 [
+INFO  19:59:35,232 - #38 3
+INFO  19:59:35,232 - #5 ]
+INFO  19:59:35,232 - #6 ;
+INFO  19:59:35,233 - #39 nizch
+INFO  19:59:35,233 - #4 [
+INFO  19:59:35,233 - #38 0
+INFO  19:59:35,233 - #5 ]
+INFO  19:59:35,233 - #16 =
+INFO  19:59:35,234 - #40 a
+INFO  19:59:35,234 - #6 ;
+INFO  19:59:35,235 - #39 nizch
+INFO  19:59:35,235 - #4 [
+INFO  19:59:35,235 - #39 jedan
+INFO  19:59:35,236 - #5 ]
+INFO  19:59:35,236 - #16 =
+INFO  19:59:35,236 - #40 b
+INFO  19:59:35,237 - #6 ;
+INFO  19:59:35,237 - #39 nizch
+INFO  19:59:35,237 - #4 [
+INFO  19:59:35,237 - #39 pet
+INFO  19:59:35,237 - #12 -
+INFO  19:59:35,237 - #38 3
+INFO  19:59:35,239 - #5 ]
+INFO  19:59:35,239 - #16 =
+INFO  19:59:35,239 - #40 c
+INFO  19:59:35,239 - #6 ;
+INFO  19:59:35,239 - #30 print
+INFO  19:59:35,239 - #8 (
+INFO  19:59:35,239 - #39 nizch
+INFO  19:59:35,239 - #4 [
+INFO  19:59:35,239 - #38 1
+INFO  19:59:35,239 - #5 ]
+INFO  19:59:35,240 - #9 )
+INFO  19:59:35,240 - #6 ;
+INFO  19:59:35,240 - #30 print
+INFO  19:59:35,240 - #8 (
+INFO  19:59:35,240 - #39 nizch
+INFO  19:59:35,240 - #4 [
+INFO  19:59:35,240 - #39 jedan
+INFO  19:59:35,240 - #13 *
+INFO  19:59:35,240 - #38 2
+INFO  19:59:35,241 - #5 ]
+INFO  19:59:35,241 - #9 )
+INFO  19:59:35,241 - #6 ;
+INFO  19:59:35,241 - #39 bodovi
+INFO  19:59:35,241 - #16 =
+INFO  19:59:35,241 - #39 bodovi
+INFO  19:59:35,241 - #11 +
+INFO  19:59:35,242 - #8 (
+INFO  19:59:35,242 - #39 pet
+INFO  19:59:35,242 - #13 *
+INFO  19:59:35,242 - #39 jedan
+INFO  19:59:35,242 - #12 -
+INFO  19:59:35,246 - #38 1
+INFO  19:59:35,246 - #9 )
+INFO  19:59:35,246 - #13 *
+INFO  19:59:35,247 - #39 bodovi
+INFO  19:59:35,247 - #12 -
+INFO  19:59:35,247 - #8 (
+INFO  19:59:35,247 - #38 3
+INFO  19:59:35,247 - #15 %
+INFO  19:59:35,247 - #38 2
+INFO  19:59:35,248 - #11 +
+INFO  19:59:35,249 - #38 3
+INFO  19:59:35,249 - #13 *
+INFO  19:59:35,249 - #38 2
+INFO  19:59:35,249 - #12 -
+INFO  19:59:35,249 - #38 3
+INFO  19:59:35,249 - #9 )
+INFO  19:59:35,249 - #6 ;
+INFO  19:59:35,249 - #30 print
+INFO  19:59:35,249 - #8 (
+INFO  19:59:35,249 - #39 bodovi
+INFO  19:59:35,249 - #9 )
+INFO  19:59:35,250 - #6 ;
+INFO  19:59:35,250 - #31 read
+INFO  19:59:35,250 - #8 (
+INFO  19:59:35,250 - #39 bodovi
+INFO  19:59:35,250 - #9 )
+INFO  19:59:35,250 - #6 ;
+INFO  19:59:35,250 - #39 bt
+INFO  19:59:35,251 - #16 =
+INFO  19:59:35,251 - #41 true
+INFO  19:59:35,251 - #6 ;
+INFO  19:59:35,251 - #30 print
+INFO  19:59:35,252 - #8 (
+INFO  19:59:35,252 - #39 bt
+INFO  19:59:35,252 - #17 ?
+INFO  19:59:35,253 - #39 bodovi
+INFO  19:59:35,253 - #7 :
+INFO  19:59:35,253 - #39 bodovi
+INFO  19:59:35,253 - #11 +
+INFO  19:59:35,253 - #38 10
+INFO  19:59:35,253 - #9 )
+INFO  19:59:35,254 - #6 ;
+INFO  19:59:35,254 - #30 print
+INFO  19:59:35,254 - #8 (
+INFO  19:59:35,254 - #41 false
+INFO  19:59:35,254 - #17 ?
+INFO  19:59:35,254 - #39 bodovi
+INFO  19:59:35,254 - #11 +
+INFO  19:59:35,254 - #38 20
+INFO  19:59:35,254 - #7 :
+INFO  19:59:35,255 - #39 bodovi
+INFO  19:59:35,255 - #11 +
+INFO  19:59:35,255 - #38 30
+INFO  19:59:35,255 - #9 )
+INFO  19:59:35,255 - #6 ;
+INFO  19:59:35,255 - #3 }
+INFO  19:59:35,255 - #3 }
+INFO  19:59:35,293 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 18
+INFO  19:59:35,294 - TIP EKSPRESNA: 1 na liniji 18
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 19
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 20
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 20
+INFO  19:59:35,295 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 20
+INFO  19:59:35,295 - TIP EKSPRESNA: 1 na liniji 20
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 21
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 21
+INFO  19:59:35,295 - Detektovano koriscenje konstante Con pet: int, 5, 0  na liniji 21
+INFO  19:59:35,295 - TIP EKSPRESNA: 1 na liniji 21
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 22
+INFO  19:59:35,295 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 23
+INFO  19:59:35,296 - TIP EKSPRESNA: 1 na liniji 23
+INFO  19:59:35,296 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 25
+INFO  19:59:35,296 - TIP EKSPRESNA: 1 na liniji 25
+INFO  19:59:35,296 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 28
+INFO  19:59:35,296 - TIP EKSPRESNA: 1 na liniji 28
+INFO  19:59:35,296 - TIP EKSPRESNA: 3 na liniji 28
+INFO  19:59:35,296 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 29
+INFO  19:59:35,296 - Detektovano koriscenje konstante Con nula: int, 0, 0  na liniji 29
+INFO  19:59:35,296 - TIP EKSPRESNA: 1 na liniji 29
+INFO  19:59:35,296 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 29
+INFO  19:59:35,297 - TIP EKSPRESNA: 1 na liniji 29
+INFO  19:59:35,297 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 30
+INFO  19:59:35,297 - TIP EKSPRESNA: 1 na liniji 30
+INFO  19:59:35,297 - TIP EKSPRESNA: 1 na liniji 30
+INFO  19:59:35,297 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 31
+INFO  19:59:35,297 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 31
+INFO  19:59:35,297 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 31
+INFO  19:59:35,297 - TIP EKSPRESNA: 1 na liniji 31
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 31
+INFO  19:59:35,298 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 31
+INFO  19:59:35,298 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 31
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 31
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 31
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 31
+INFO  19:59:35,298 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 32
+INFO  19:59:35,298 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 32
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 32
+INFO  19:59:35,298 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 32
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 32
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 32
+INFO  19:59:35,298 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 33
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 33
+INFO  19:59:35,298 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 34
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 34
+INFO  19:59:35,298 - TIP EKSPRESNA: 1 na liniji 34
+INFO  19:59:35,298 - Detektovano koriscenje globalne promenljive Var nizch: Arr of char, 1, 0  na liniji 37
+INFO  19:59:35,299 - TIP EKSPRESNA: 1 na liniji 37
+INFO  19:59:35,299 - TIP EKSPRESNA: 3 na liniji 37
+INFO  19:59:35,299 - Detektovano koriscenje globalne promenljive Var nizch: Arr of char, 1, 0  na liniji 38
+INFO  19:59:35,299 - TIP EKSPRESNA: 1 na liniji 38
+INFO  19:59:35,299 - TIP EKSPRESNA: 2 na liniji 38
+INFO  19:59:35,299 - Detektovano koriscenje globalne promenljive Var nizch: Arr of char, 1, 0  na liniji 39
+INFO  19:59:35,299 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 39
+INFO  19:59:35,299 - TIP EKSPRESNA: 1 na liniji 39
+INFO  19:59:35,299 - TIP EKSPRESNA: 2 na liniji 39
+INFO  19:59:35,299 - Detektovano koriscenje globalne promenljive Var nizch: Arr of char, 1, 0  na liniji 40
+INFO  19:59:35,299 - Detektovano koriscenje konstante Con pet: int, 5, 0  na liniji 40
+INFO  19:59:35,299 - TIP EKSPRESNA: 1 na liniji 40
+INFO  19:59:35,299 - TIP EKSPRESNA: 2 na liniji 40
+INFO  19:59:35,299 - Detektovano koriscenje globalne promenljive Var nizch: Arr of char, 1, 0  na liniji 41
+INFO  19:59:35,299 - TIP EKSPRESNA: 1 na liniji 41
+INFO  19:59:35,299 - TIP EKSPRESNA: 2 na liniji 41
+INFO  19:59:35,299 - Detektovano koriscenje globalne promenljive Var nizch: Arr of char, 1, 0  na liniji 42
+INFO  19:59:35,300 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 42
+INFO  19:59:35,300 - TIP EKSPRESNA: 1 na liniji 42
+INFO  19:59:35,301 - TIP EKSPRESNA: 2 na liniji 42
+INFO  19:59:35,302 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 45
+INFO  19:59:35,302 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 45
+INFO  19:59:35,303 - Detektovano koriscenje konstante Con pet: int, 5, 0  na liniji 45
+INFO  19:59:35,303 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 45
+INFO  19:59:35,303 - TIP EKSPRESNA: 1 na liniji 45
+INFO  19:59:35,303 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 45
+INFO  19:59:35,303 - TIP EKSPRESNA: 1 na liniji 45
+INFO  19:59:35,303 - TIP EKSPRESNA: 1 na liniji 45
+INFO  19:59:35,304 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 46
+INFO  19:59:35,304 - TIP EKSPRESNA: 1 na liniji 46
+INFO  19:59:35,304 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 48
+INFO  19:59:35,304 - Detektovano koriscenje lokalne promenljive Var bt: , 1, 1  na liniji 49
+INFO  19:59:35,304 - TIP EKSPRESNA: 5 na liniji 49
+INFO  19:59:35,304 - Detektovano koriscenje lokalne promenljive Var bt: , 1, 1  na liniji 51
+INFO  19:59:35,304 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 51
+INFO  19:59:35,305 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 51
+INFO  19:59:35,305 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 52
+INFO  19:59:35,306 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 52
+INFO  19:59:35,307 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,40 @@
+INFO  21:15:46,755 - Compiling source file: C:\Users\Administrator\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  21:15:46,860 - #28 program
+INFO  21:15:46,860 - #39 test301
+INFO  21:15:46,861 - #29 const
+INFO  21:15:46,863 - #39 int
+INFO  21:15:46,863 - #39 nula
+INFO  21:15:46,865 - #16 =
+INFO  21:15:46,865 - #38 0
+INFO  21:15:46,865 - #6 ;
+INFO  21:15:46,865 - #29 const
+INFO  21:15:46,867 - #39 int
+INFO  21:15:46,867 - #39 jedan
+INFO  21:15:46,867 - #16 =
+INFO  21:15:46,867 - #38 1
+INFO  21:15:46,868 - #6 ;
+INFO  21:15:46,868 - #29 const
+INFO  21:15:46,868 - #39 int
+INFO  21:15:46,868 - #39 pet
+INFO  21:15:46,868 - #16 =
+INFO  21:15:46,868 - #38 5
+INFO  21:15:46,868 - #6 ;
+INFO  21:15:46,888 - #39 int
+INFO  21:15:46,888 - #39 niz
+INFO  21:15:46,888 - #4 [
+INFO  21:15:46,888 - #5 ]
+INFO  21:15:46,888 - #6 ;
+INFO  21:15:46,889 - #39 char
+INFO  21:15:46,889 - #39 nizch
+INFO  21:15:46,890 - #4 [
+INFO  21:15:46,890 - #5 ]
+INFO  21:15:46,890 - #6 ;
+INFO  21:15:46,890 - #39 bool
+INFO  21:15:46,890 - #39 t
+INFO  21:15:46,890 - #6 ;
+INFO  21:15:46,890 - #2 {
+INFO  21:15:46,891 - #39 int
+INFO  21:15:46,893 - #4 [
+ERROR 21:15:46,894 - 
+Sintaksna greska na liniji 15
+ERROR 21:15:46,894 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

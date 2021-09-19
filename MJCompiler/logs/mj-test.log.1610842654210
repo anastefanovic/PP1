@@ -1,0 +1,43 @@
+INFO  01:17:28,880 - Compiling source file: C:\Users\Administrator\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  01:17:28,984 - #28 program
+INFO  01:17:28,984 - #39 test301
+INFO  01:17:28,985 - #29 const
+INFO  01:17:28,987 - #39 int
+INFO  01:17:28,987 - #39 nula
+INFO  01:17:28,989 - #16 =
+INFO  01:17:28,990 - #38 0
+INFO  01:17:28,990 - #6 ;
+INFO  01:17:28,990 - #29 const
+INFO  01:17:28,992 - #39 int
+INFO  01:17:28,992 - #39 jedan
+INFO  01:17:28,992 - #16 =
+INFO  01:17:28,992 - #38 1
+INFO  01:17:28,992 - #6 ;
+INFO  01:17:28,992 - #29 const
+INFO  01:17:28,992 - #39 int
+INFO  01:17:28,993 - #39 pet
+INFO  01:17:28,993 - #16 =
+INFO  01:17:28,993 - #38 5
+INFO  01:17:28,994 - #6 ;
+INFO  01:17:28,995 - #29 const
+INFO  01:17:28,995 - #39 bool
+INFO  01:17:28,995 - #39 t
+INFO  01:17:28,995 - #16 =
+INFO  01:17:28,995 - #41 false
+INFO  01:17:28,995 - #6 ;
+INFO  01:17:28,996 - #39 int
+INFO  01:17:28,996 - #39 niz
+INFO  01:17:28,996 - #4 [
+INFO  01:17:28,996 - #5 ]
+INFO  01:17:28,996 - #6 ;
+INFO  01:17:28,996 - #39 char
+INFO  01:17:28,997 - #39 nizch
+INFO  01:17:28,997 - #4 [
+INFO  01:17:28,997 - #5 ]
+INFO  01:17:28,997 - #6 ;
+INFO  01:17:28,997 - #2 {
+INFO  01:17:28,997 - #39 niz
+INFO  01:17:28,999 - #16 =
+ERROR 01:17:28,999 - 
+Sintaksna greska na liniji 15
+ERROR 01:17:28,999 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

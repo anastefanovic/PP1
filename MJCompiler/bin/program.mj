@@ -1,0 +1,22 @@
+program MJProgram
+	int x; int y; char z;  const int a = 1, b = 2;
+	const char karakter = 'c';
+	const bool boolean = true;
+	char nizKaraktera [];
+{
+	
+   
+     
+	int k (int a, bool b[]) int c; char b; {
+		c = 1;
+		return 'c';
+	}
+	
+	void main() {
+		y = 2;
+		x = y + 2;
+		y = k() + 3;
+		print(y);
+		return 0;
+	}
+}
